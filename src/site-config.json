@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Apex Auto Body",
+    "phone": "555-aut-r92",
+    "category": "auto-body",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-body-red-charge",
+      "categoryGroup": "auto-body",
+      "name": "Red Charge",
+      "recipeFile": "auto-body/red-charge.astro",
+      "colors": {
+        "primary": "#1E40AF",
+        "primaryDark": "#1E3A8A",
+        "primaryLight": "#c7cfeb",
+        "secondary": "#1b3a9e",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1E40AF",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-body/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Milwaukee's Trusted Auto Body Shop",
+      "heroSubline": "Quality repairs for Wauwatosa and Brookfield drivers. We handle everything from winter salt damage to collision repairs.",
+      "aboutTitle": "Why Choose Apex Auto Body",
+      "aboutText": [
+        "Founded in 2012, Apex Auto Body has served Milwaukee-area drivers with honest, reliable auto body work. Our team grew from a two-bay shop in Walker's Point to a full-service facility.",
+        "We believe in transparent pricing and clear communication. You'll always know exactly what your car needs and why before we start work.",
+        "As locals ourselves, we understand how Milwaukee winters batter our cars. We're committed to keeping your vehicle safe through every season."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We know exactly how Milwaukee weather affects vehicles year-round."
+        },
+        {
+          "title": "Fair Pricing",
+          "description": "No hidden fees - just honest assessments and straightforward quotes."
+        },
+        {
+          "title": "Quick Turnaround",
+          "description": "Most repairs completed within 3-5 business days."
+        },
+        {
+          "title": "Lifetime Warranty",
+          "description": "We stand behind our work with a warranty on all repairs."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Estimate Today",
+      "ctaSubline": "Call 555-AUT-R92 or stop by our Milwaukee shop for a no-obligation assessment."
+    },
+    "services": [
+      {
+        "slug": "collision-repair",
+        "name": "Collision Repair",
+        "shortDescription": "Expert collision damage restoration using OEM procedures.",
+        "description": "From fender benders to major collisions, our Milwaukee technicians restore your vehicle's structure and appearance using manufacturer-approved methods. We start with a thorough damage assessment, checking for hidden structural issues common in Wisconsin winter accidents.\n\nOur frame straightening equipment precisely restores your vehicle's alignment. We then match factory paint colors using computerized mixing systems, accounting for Milwaukee's harsh UV exposure that can fade finishes. Final quality checks ensure all safety systems function perfectly before you drive away.",
+        "process": [
+          "Step 1: Comprehensive damage assessment with digital imaging",
+          "Step 2: Structural repairs using OEM specifications",
+          "Step 3: Precision paint matching and application",
+          "Step 4: Final safety inspection and road test"
+        ],
+        "benefits": [
+          "Restores vehicle to pre-accident condition",
+          "Maintains factory corrosion protection",
+          "Preserves your car's value",
+          "Meets all manufacturer warranty requirements"
+        ],
+        "faq": [
+          {
+            "question": "How long does collision repair typically take?",
+            "answer": "Most repairs take 3-5 business days depending on damage severity. We'll provide a timeline after assessing your vehicle."
+          },
+          {
+            "question": "Will my insurance cover the repairs?",
+            "answer": "We work with all major insurers and handle claims paperwork for you. Our estimates meet insurer requirements."
+          }
+        ]
+      },
+      {
+        "slug": "rust-repair",
+        "name": "Rust Repair",
+        "shortDescription": "Comprehensive rust treatment for Wisconsin vehicles.",
+        "description": "Milwaukee's heavy winter road salt takes a brutal toll on vehicles. Our rust repair services stop corrosion in its tracks and prevent future damage. We start by removing all affected metal, cutting back to clean material - no temporary patches.\n\nFor structural areas, we weld in new OEM-quality replacement panels. Non-structural areas receive corrosion-resistant treatments before priming and painting. We pay special attention to wheel wells, rocker panels, and undercarriage areas most vulnerable to Wisconsin's salt-heavy roads. The final step includes applying protective coatings to prevent future rust.",
+        "process": [
+          "Step 1: Complete rust removal and surface preparation",
+          "Step 2: Replacement of severely corroded panels",
+          "Step 3: Application of rust-inhibiting primers",
+          "Step 4: Protective undercoating application"
+        ],
+        "benefits": [
+          "Extends your vehicle's lifespan",
+          "Prevents safety hazards from structural rust",
+          "Maintains resale value",
+          "Protects against future corrosion"
+        ],
+        "faq": [
+          {
+            "question": "Can you prevent rust from coming back?",
+            "answer": "Our multi-layer protection system significantly slows future corrosion. Regular undercarriage washes in winter help maintain protection."
+          },
+          {
+            "question": "Is rust repair covered by insurance?",
+            "answer": "Typically only if the rust resulted from a covered incident. We can assess your specific situation."
+          }
+        ]
+      },
+      {
+        "slug": "paintless-dent-repair",
+        "name": "Paintless Dent Repair",
+        "shortDescription": "Hail and dent removal without repainting.",
+        "description": "When Milwaukee's severe weather leaves dents but no paint damage, our paintless dent repair (PDR) techniques can often restore your vehicle's appearance without repainting. Using specialized tools, we massage dents out from behind the panel while preserving the factory finish.\n\nThis method works best on hail damage, parking lot dings, and minor impacts where the paint remains intact. We assess each dent individually - some may still require conventional repair. PDR typically takes just a few hours and costs significantly less than traditional bodywork while maintaining your car's original paint.",
+        "process": [
+          "Step 1: Detailed dent assessment under proper lighting",
+          "Step 2: Accessing dent from behind using specialized tools",
+          "Step 3: Gradual reshaping of metal to original contours",
+          "Step 4: Final polish to restore factory finish"
+        ],
+        "benefits": [
+          "Preserves original factory paint",
+          "Faster turnaround than conventional repair",
+          "More affordable solution",
+          "Environmentally friendly - no paint chemicals"
+        ],
+        "faq": [
+          {
+            "question": "What types of dents can be repaired this way?",
+            "answer": "PDR works best on shallow, rounded dents without paint damage. Sharp creases or cracked paint usually need conventional repair."
+          },
+          {
+            "question": "Will the repair be noticeable?",
+            "answer": "Properly performed PDR leaves no visible signs of repair when done by our skilled technicians."
+          }
+        ]
+      },
+      {
+        "slug": "frame-straightening",
+        "name": "Frame Straightening",
+        "shortDescription": "Precision frame repair using laser measurement.",
+        "description": "After a collision, your vehicle's frame may need precise realignment to ensure proper handling and safety. Our Milwaukee shop uses computerized laser measurement systems to restore your frame to factory specifications within millimeters.\n\nThis process is crucial for maintaining your car's structural integrity, especially important on Wisconsin's rough roads. We start with a complete diagnostic scan to identify all misalignments, then use hydraulic equipment to gradually return each point to its proper position. Final measurements confirm everything meets OEM tolerances before we proceed with other repairs.",
+        "process": [
+          "Step 1: Complete frame measurement with laser alignment system",
+          "Step 2: Strategic application of hydraulic pressure to straighten",
+          "Step 3: Continuous measurement during straightening process",
+          "Step 4: Final verification of all reference points"
+        ],
+        "benefits": [
+          "Restores factory handling characteristics",
+          "Ensures proper suspension alignment",
+          "Maintains structural safety",
+          "Prevents uneven tire wear"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my frame is bent?",
+            "answer": "Signs include uneven panel gaps, steering pull, or unusual tire wear. Our measurement system detects even minor misalignments."
+          },
+          {
+            "question": "Is a straightened frame as strong as original?",
+            "answer": "When done properly using OEM procedures, the repaired frame maintains its designed strength and safety characteristics."
+          }
+        ]
+      },
+      {
+        "slug": "paint-matching",
+        "name": "Paint Matching",
+        "shortDescription": "Flawless color matching for seamless repairs.",
+        "description": "Milwaukee's seasonal temperature extremes can make paint matching challenging. Our technicians use advanced spectrophotometers to analyze your vehicle's current color, accounting for sun fading and environmental factors.\n\nWe then custom-mix paint to blend perfectly with your existing finish. The process includes testing sprayouts on sample panels under different lighting conditions to verify the match. For older vehicles, we may recommend blending into adjacent panels to ensure a seamless repair. Our Milwaukee shop maintains an extensive database of factory colors plus formulas for common fading patterns seen in our region.",
+        "process": [
+          "Step 1: Color measurement with spectrophotometer",
+          "Step 2: Custom paint formulation accounting for age and exposure",
+          "Step 3: Test sprayout and lighting comparison",
+          "Step 4: Final application with proper clearcoat protection"
+        ],
+        "benefits": [
+          "Invisible repair lines",
+          "Proper protection against Wisconsin weather",
+          "Maintains vehicle value",
+          "Factory-quality finish"
+        ],
+        "faq": [
+          {
+            "question": "Why doesn't the paint match exactly sometimes?",
+            "answer": "Sun exposure changes paint over time. We adjust for this, but very old paint may require blending for perfect results."
+          },
+          {
+            "question": "How long until the new paint fully hardens?",
+            "answer": "Paint cures completely in about 30 days. Avoid car washes and waxing during this period for best results."
+          }
+        ]
+      },
+      {
+        "slug": "bumper-repair",
+        "name": "Bumper Repair",
+        "shortDescription": "Cost-effective bumper restoration solutions.",
+        "description": "Bumpers take the brunt of Milwaukee's tight parking spots and winter driving conditions. We offer multiple repair options depending on damage severity. Minor scuffs often just need refinishing, while cracks may require plastic welding.\n\nFor modern vehicles with parking sensors and radar systems, we ensure all safety features remain fully functional after repair. Our technicians test each system before returning your vehicle. When replacement is necessary, we source OEM-quality parts that fit perfectly and maintain your car's designed impact protection.",
+        "process": [
+          "Step 1: Damage assessment and repair plan",
+          "Step 2: Plastic welding or refinishing as needed",
+          "Step 3: Precise color matching and painting",
+          "Step 4: Sensor calibration and safety check"
+        ],
+        "benefits": [
+          "Often cheaper than full replacement",
+          "Maintains factory safety ratings",
+          "Preserves parking sensor functionality",
+          "Quick turnaround for this common repair"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair cracked bumper covers?",
+            "answer": "Yes, we use specialized plastic welding techniques for many types of bumper damage."
+          },
+          {
+            "question": "How long does bumper repair take?",
+            "answer": "Most bumper repairs are completed within 1-2 days depending on paint drying times."
+          }
+        ]
+      },
+      {
+        "slug": "windshield-chip-repair",
+        "name": "Windshield Chip Repair",
+        "shortDescription": "Affordable fix for small windshield damage.",
+        "description": "Milwaukee's gravel-strewn winter roads lead to countless windshield chips. When caught early, many chips can be repaired without full replacement. Our resin injection process fills the damage, preventing spreading and restoring structural integrity.\n\nWe evaluate each chip to ensure it meets repairable size and location criteria. The process takes about 30 minutes - much faster than replacement. While the repair won't be completely invisible, it prevents the damage from worsening and avoids the expense of a new windshield. We recommend addressing chips promptly before temperature changes cause them to spread.",
+        "process": [
+          "Step 1: Chip cleaning and preparation",
+          "Step 2: Resin injection under vacuum pressure",
+          "Step 3: UV curing for maximum strength",
+          "Step 4: Final polish and inspection"
+        ],
+        "benefits": [
+          "Prevents chip from spreading",
+          "Maintains windshield strength",
+          "No need for replacement in many cases",
+          "Quick, affordable solution"
+        ],
+        "faq": [
+          {
+            "question": "What types of chips can be repaired?",
+            "answer": "Most star-shaped chips and bullseyes smaller than a quarter can be repaired if not in the driver's direct line of sight."
+          },
+          {
+            "question": "Does insurance cover chip repair?",
+            "answer": "Many Wisconsin policies cover chip repair with no deductible since it prevents more expensive replacement."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Rust Repair",
+        "text": "Apex saved my 2015 Silverado from Wisconsin winters. They cut out all the rust in my wheel wells and replaced it properly - not just covering it up like other shops tried. Six months later and the repairs still look perfect.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Collision Repair",
+        "text": "After hitting a deer on Highway 100, Apex had my Camry looking brand new. They found hidden frame damage others missed and worked directly with my insurance. The paint match on my pearl white is flawless.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Paintless Dent Repair",
+        "text": "The hail storm last June left my Accord looking like a golf ball. Apex removed all 37 dents without repainting - you can't tell it ever happened. They even helped with my insurance claim paperwork.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Bumper Repair",
+        "text": "Backed into a pole in the Sendik's parking lot - embarrassing but Apex made it right. They plastic-welded my cracked bumper and matched the metallic gray perfectly. Total was half what the dealer wanted for replacement.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Windshield Chip Repair",
+        "text": "Got a nasty chip driving on I-94 near the zoo interchange. Apex fixed it same-day and prevented what would've been a full windshield replacement come winter. The tech explained exactly how the resin works to stop spreading.",
+        "date": "2024-10-15"
+      },
+      {
+        "name": "Jennifer S.",
+        "rating": 5,
+        "service": "Paint Matching",
+        "text": "Had rust spots repaired on my red Jeep and was worried about color match. Apex nailed it - even accounting for the fading from parking at my Bay View apartment. The blend line is invisible.",
+        "date": "2024-09-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Milwaukee Auto Body Shop | Collision & Rust Repair",
+        "description": "Trusted auto body repairs in Milwaukee. Specializing in collision repair, rust treatment, and paint matching for Wauwatosa and Brookfield drivers."
+      },
+      "about": {
+        "title": "About Apex Auto Body | Milwaukee Repair Experts",
+        "description": "Learn about our Milwaukee auto body shop's commitment to quality repairs and honest service since 2012."
+      },
+      "services": {
+        "title": "Auto Body Services in Milwaukee | Apex Auto Body",
+        "description": "Complete auto body services including collision repair, rust treatment, and paint matching for Milwaukee-area vehicles."
+      },
+      "contact": {
+        "title": "Contact Apex Auto Body | Milwaukee Shop",
+        "description": "Schedule your auto body repair at our Milwaukee shop. Call 555-AUT-R92 for estimates in Wauwatosa and Brookfield."
+      },
+      "reviews": {
+        "title": "Apex Auto Body Reviews | Milwaukee Customers",
+        "description": "See what Milwaukee drivers say about their experiences with our auto body repair services."
+      },
+      "service-areas": {
+        "title": "Auto Body Service Areas | Milwaukee & Suburbs",
+        "description": "Apex Auto Body serves Milwaukee, Wauwatosa, Brookfield and surrounding areas with quality auto repairs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Wauwatosa",
+        "slug": "wauwatosa-wi",
+        "state": "WI",
+        "content": "Apex Auto Body proudly serves the residents of Wauwatosa, WI, providing top-tier auto body repair and collision services tailored to the unique needs of this historic community. With harsh winters bringing heavy lake-effect snow, your vehicle is susceptible to road salt damage and winter collisions—trust our expert team to restore your car to pristine condition. Whether you're navigating the charming streets lined with 1920s-40s Tudor and Colonial homes or commuting to downtown Milwaukee, we ensure your vehicle stays safe and reliable year-round.",
+        "localContext": "Wauwatosa is known for its historic architecture and harsh winter weather, requiring durable auto care.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "West Allis",
+          "Brookfield"
+        ]
+      },
+      {
+        "city": "Brookfield",
+        "slug": "brookfield-wi",
+        "state": "WI",
+        "content": "At Apex Auto Body, we specialize in serving Brookfield, WI, where upscale suburban homes from the 1970s-80s reflect the community's commitment to quality—just like our auto body services. The harsh winters here bring heavy lake-effect snow, increasing the risk of fender benders and undercarriage corrosion. Our team uses advanced techniques to repair collision damage and protect your vehicle from Wisconsin's tough climate. Whether you're driving to The Corners of Brookfield or commuting to nearby cities, trust us to keep your car looking and performing its best.",
+        "localContext": "Brookfield's upscale suburban vibe demands high-quality auto repairs to match its well-maintained homes.",
+        "nearbyAreas": [
+          "Wauwatosa",
+          "New Berlin",
+          "Elm Grove"
+        ]
+      },
+      {
+        "city": "Milwaukee",
+        "slug": "milwaukee-wi",
+        "state": "WI",
+        "content": "Apex Auto Body is Milwaukee's trusted auto body shop, offering comprehensive collision repair, dent removal, and paint restoration for drivers across the city. Milwaukee's harsh winters, combined with urban driving conditions, can take a toll on your vehicle. Our skilled technicians use cutting-edge technology to address everything from minor scrapes to major collision damage. Whether you're cruising by Lake Michigan or navigating downtown streets, we’re here to keep your car in top shape.",
+        "localContext": "Milwaukee's mix of urban and lakeside driving requires reliable auto body care.",
+        "nearbyAreas": [
+          "Wauwatosa",
+          "West Allis",
+          "Shorewood"
+        ]
+      },
+      {
+        "city": "West Allis",
+        "slug": "west-allis-wi",
+        "state": "WI",
+        "content": "Serving West Allis, WI, Apex Auto Body provides expert auto body repairs to handle the wear and tear of daily commutes and harsh winter weather. Known for its working-class roots and vibrant community events, West Allis deserves a dependable auto body shop that delivers quality results. From hail damage repairs to full collision restoration, we ensure your vehicle stays road-ready. Trust us to protect your car from the challenges of southeastern Wisconsin's climate.",
+        "localContext": "West Allis' busy streets and seasonal weather demand durable auto repairs.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "Greenfield",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "Greenfield",
+        "slug": "greenfield-wi",
+        "state": "WI",
+        "content": "Apex Auto Body is proud to serve Greenfield, WI, offering top-notch auto body services for residents navigating the city's mix of suburban and commercial areas. With harsh winters bringing heavy snow and ice, your vehicle faces increased risks of corrosion and collision damage. Our team specializes in rust prevention, paint matching, and frame straightening to keep your car looking like new. Whether you're heading to Southridge Mall or commuting to Milwaukee, we’ve got you covered.",
+        "localContext": "Greenfield's suburban layout and winter weather make reliable auto care essential.",
+        "nearbyAreas": [
+          "West Allis",
+          "Hales Corners",
+          "Franklin"
+        ]
+      },
+      {
+        "city": "Shorewood",
+        "slug": "shorewood-wi",
+        "state": "WI",
+        "content": "Apex Auto Body provides premium auto body services to Shorewood, WI, a lakeside community where well-maintained vehicles are a must. The proximity to Lake Michigan means exposure to road salt and winter moisture, accelerating wear and tear. Our expert team handles everything from scratch removal to major collision repairs, ensuring your car withstands the elements. Whether you're driving along Lake Drive or heading downtown, trust us for flawless results.",
+        "localContext": "Shorewood's lakeside location requires extra protection against winter corrosion.",
+        "nearbyAreas": [
+          "Milwaukee",
+          "Whitefish Bay",
+          "Fox Point"
+        ]
+      },
+      {
+        "city": "Whitefish Bay",
+        "slug": "whitefish-bay-wi",
+        "state": "WI",
+        "content": "Serving Whitefish Bay, WI, Apex Auto Body delivers high-quality auto body repairs tailored to this upscale North Shore community. The lake-effect snow and frigid winters demand durable paint protection and rust prevention to keep your vehicle in pristine condition. Our team specializes in luxury vehicle repairs, ensuring your car maintains its value and appearance. Whether you're commuting to Milwaukee or enjoying Silver Spring Drive, we’re your trusted repair partner.",
+        "localContext": "Whitefish Bay's affluent community expects premium auto body services.",
+        "nearbyAreas": [
+          "Shorewood",
+          "Fox Point",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Franklin",
+        "slug": "franklin-wi",
+        "state": "WI",
+        "content": "Apex Auto Body is Franklin, WI's go-to auto body shop, offering expert repairs for drivers in this growing suburban city. With sprawling neighborhoods and frequent winter weather, your vehicle needs reliable protection against collisions and corrosion. Our services include dent removal, paintless repair, and full collision restoration. Whether you're heading to the Franklin Business Park or exploring the Root River Parkway, trust us to keep your car in peak condition.",
+        "localContext": "Franklin's expanding suburbs and seasonal weather require dependable auto care.",
+        "nearbyAreas": [
+          "Greenfield",
+          "Oak Creek",
+          "Hales Corners"
+        ]
+      },
+      {
+        "city": "Oak Creek",
+        "slug": "oak-creek-wi",
+        "state": "WI",
+        "content": "Apex Auto Body proudly serves Oak Creek, WI, providing expert auto body repairs for this bustling lakeside community. The combination of industrial areas and residential neighborhoods means your vehicle faces diverse challenges, from highway driving to winter road salt damage. Our team specializes in everything from minor paint touch-ups to major frame repairs. Whether you're near the lakefront or shopping at Drexel Town Square, we ensure your car looks its best.",
+        "localContext": "Oak Creek's mix of industry and suburbs demands versatile auto body services.",
+        "nearbyAreas": [
+          "Franklin",
+          "South Milwaukee",
+          "St. Francis"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-wi",
+        "state": "WI",
+        "content": "Apex Auto Body is Glendale, WI's trusted auto body repair shop, offering top-tier services for this North Shore community. With proximity to Lake Michigan and frequent winter storms, your vehicle needs protection against salt corrosion and collision damage. Our team excels in luxury and everyday vehicle repairs, ensuring flawless results. Whether you're visiting Bayshore Town Center or commuting to Milwaukee, trust us to keep your car in showroom condition.",
+        "localContext": "Glendale's upscale shopping and lakeside location require high-end auto care.",
+        "nearbyAreas": [
+          "Whitefish Bay",
+          "Shorewood",
+          "Fox Point"
+        ]
+      },
+      {
+        "city": "Hales Corners",
+        "slug": "hales-corners-wi",
+        "state": "WI",
+        "content": "Serving Hales Corners, WI, Apex Auto Body provides expert auto body repairs for this tight-knit suburban community. The rural-meets-suburban vibe means your vehicle encounters everything from country roads to busy highways, all while battling Wisconsin's harsh winters. Our team specializes in rust prevention, collision repair, and paint restoration to keep your car looking its best. Whether you're heading to Whitnall Park or commuting to Milwaukee, we’re here to help.",
+        "localContext": "Hales Corners' mix of rural and suburban roads demands versatile auto repairs.",
+        "nearbyAreas": [
+          "Greenfield",
+          "Franklin",
+          "New Berlin"
+        ]
+      },
+      {
+        "city": "New Berlin",
+        "slug": "new-berlin-wi",
+        "state": "WI",
+        "content": "Apex Auto Body is proud to serve New Berlin, WI, offering premium auto body services for this thriving suburban city. Known for its excellent schools and family-friendly neighborhoods, New Berlin also faces harsh winters that can damage your vehicle. Our team provides comprehensive collision repair, paintless dent removal, and rust protection to keep your car in top shape. Whether you're driving to the New Berlin Industrial Park or exploring Malone Park, trust us for expert care.",
+        "localContext": "New Berlin's family-oriented community values reliable auto body services.",
+        "nearbyAreas": [
+          "Brookfield",
+          "Waukesha",
+          "Hales Corners"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "collision-repair": "/images/service-collision-repair.webp",
+      "rust-repair": "/images/service-rust-repair.webp",
+      "paintless-dent-repair": "/images/service-paintless-dent-repair.webp",
+      "frame-straightening": "/images/service-frame-straightening.webp",
+      "paint-matching": "/images/service-paint-matching.webp",
+      "bumper-repair": "/images/service-bumper-repair.webp",
+      "windshield-chip-repair": "/images/service-windshield-chip-repair.webp"
+    },
+    "servicesResponsive": {
+      "collision-repair": {
+        "src": "/images/service-collision-repair.webp",
+        "srcset": "/images/service-collision-repair-400w.webp 400w, /images/service-collision-repair-800w.webp 800w, /images/service-collision-repair-1200w.webp 1200w, /images/service-collision-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "rust-repair": {
+        "src": "/images/service-rust-repair.webp",
+        "srcset": "/images/service-rust-repair-400w.webp 400w, /images/service-rust-repair-800w.webp 800w, /images/service-rust-repair-1200w.webp 1200w, /images/service-rust-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paintless-dent-repair": {
+        "src": "/images/service-paintless-dent-repair.webp",
+        "srcset": "/images/service-paintless-dent-repair-400w.webp 400w, /images/service-paintless-dent-repair-800w.webp 800w, /images/service-paintless-dent-repair-1200w.webp 1200w, /images/service-paintless-dent-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "frame-straightening": {
+        "src": "/images/service-frame-straightening.webp",
+        "srcset": "/images/service-frame-straightening-400w.webp 400w, /images/service-frame-straightening-800w.webp 800w, /images/service-frame-straightening-1200w.webp 1200w, /images/service-frame-straightening.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paint-matching": {
+        "src": "/images/service-paint-matching.webp",
+        "srcset": "/images/service-paint-matching-400w.webp 400w, /images/service-paint-matching-800w.webp 800w, /images/service-paint-matching-1200w.webp 1200w, /images/service-paint-matching.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bumper-repair": {
+        "src": "/images/service-bumper-repair.webp",
+        "srcset": "/images/service-bumper-repair-400w.webp 400w, /images/service-bumper-repair-800w.webp 800w, /images/service-bumper-repair-1200w.webp 1200w, /images/service-bumper-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "windshield-chip-repair": {
+        "src": "/images/service-windshield-chip-repair.webp",
+        "srcset": "/images/service-windshield-chip-repair-400w.webp 400w, /images/service-windshield-chip-repair-800w.webp 800w, /images/service-windshield-chip-repair-1200w.webp 1200w, /images/service-windshield-chip-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
